@@ -1,11 +1,11 @@
-# Easy
+# 1. Easy
 > Download, compile and run a simple sampling example with both C++ and R interfaces of volesti. For example, you can sample points from a 100-dimensional cube using the HMC algorithm implemented in volesti for various distributions.
 
-### C++ Interface
+### 1. C++ Interface
 
 ### Simple HMC Output:
-
->-0.496861 -0.249355
+```
+-0.496861 -0.249355
 -0.162092  0.871028
 0.459456 0.394973
 0.681771 -0.79942
@@ -1014,26 +1014,23 @@
 -0.187976 -0.412885
 
 Step size (final): 0.234923
-
 Discard Ratio: 0.02038
-
 Average Acceptance Log-prob: 0.978544
-
-### R Interface:
+````
+### 2. R Interface:
 
 ### Code:
+```
 library(volesti)
-
 P = gen_cube(100,'H')
-
 pts = sample_points(P,100,NULL)
-
 print(pts)
-
+```
 
 ### Output:
+```
                    [,1]            [,2]            [,3]            [,4]           [,5]
->  [1,] -0.4992619157005 -0.021667481193 -0.208829759564 -0.040287165038 -0.03435881704
+  [1,] -0.4992619157005 -0.021667481193 -0.208829759564 -0.040287165038 -0.03435881704
   [2,] -0.8386644033461  0.128138678092  0.964405043307  0.762876915858 -0.79570433775
   [3,]  0.6505059351952  0.788575609791  0.913673852026  0.394732691716 -0.75062478324
   [4,] -0.7703181701591 -0.711563470362 -0.953685334870 -0.053268254358  0.02264048124
@@ -1265,3 +1262,4 @@ print(pts)
  [10,]  0.2670273750490
 
  [ reached getOption("max.print") -- omitted 90 rows ]
+```
