@@ -1,4 +1,4 @@
-# 1. Easy
+# Easy Test
 > Download, compile and run a simple sampling example with both C++ and R interfaces of volesti. For example, you can sample points from a 100-dimensional cube using the HMC algorithm implemented in volesti for various distributions.
 
 ### 1. C++ Interface
