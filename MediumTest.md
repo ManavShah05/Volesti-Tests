@@ -7,7 +7,7 @@
 #### Code:
 > I added the following code in int main() of simple_hmc.cpp
 
-![Screenshot from 2021-04-12 18-05-28](https://user-images.githubusercontent.com/71564257/114481588-be5db780-9bb9-11eb-95f9-9a0a46bf0d95.png)
+![Screenshot from 2021-04-12 18-07-06](https://user-images.githubusercontent.com/71564257/114481992-99b60f80-9bba-11eb-9a8d-3e7df57e4ad1.png)
 
 #### Output:
 ```
