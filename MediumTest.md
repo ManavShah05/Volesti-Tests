@@ -6,13 +6,8 @@
 
 #### Code:
 > I added the following code in int main() of simple_hmc.cpp
-```
-+  clock_t startClock = clock();
-  
-  run_main<double>(); 
-  
-+  clock_t diff = clock() - startClock;
-+  std::cerr << "Run time: " << ( (float)diff ) / CLOCKS_PER_SEC << " s" << std::endl;
+
+![Screenshot from 2021-04-12 18-05-28](https://user-images.githubusercontent.com/71564257/114481588-be5db780-9bb9-11eb-95f9-9a0a46bf0d95.png)
 ```
 #### Output:
 ```
